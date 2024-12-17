@@ -14,7 +14,6 @@ const CustomWebcam = () => {
 
   return (
     <div className="container flex flex-col items-center">
-      {/* Webcam View */}
       <Webcam
         audio={false}
         ref={webcamRef}
