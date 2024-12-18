@@ -23,7 +23,7 @@ const CheckInVisitor = () => {
 
         <div className="text-center my-6">
                 <p className="text-4xl font-semibold text-gray-700 font-poppins mt-2 bg-gradient-to-r from-indigo-600 via-blue-500 to-indigo-400 inline-block text-transparent bg-clip-text">
-                VisionEdge <span className='font-thin text-gray-700 '>Visitor Check-In Solution</span>
+                VisionEdge <span className='font-thin text-gray-700 '>Visitor Check-In System</span>
                 </p>
             </div>
 

@@ -67,10 +67,10 @@ import CheckInPage from "./CheckInPage";
 import asset from "../assets/Robot.png";
 
 const Dashboard = () => {
-  const [isVisitor, setIsVisitor] = useState(true); // State to manage slider (Visitor or Employee)
+  const [isVisitor, setIsVisitor] = useState(true);
 
   const handleToggle = () => {
-    setIsVisitor((prevState) => !prevState); // Toggle between Visitor and Employee
+    setIsVisitor((prevState) => !prevState); 
   };
 
   return (

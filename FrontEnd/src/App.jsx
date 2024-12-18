@@ -7,6 +7,8 @@ import ErrorPage from "../src/component/ErrorPage";
 import CheckInPage from "./component/CheckInPage";
 import CheckInVisitor from "./component/CheckInVisitor";
 import { Routes, Route} from "react-router-dom"
+import RegisterEmployee from "./component/RegisterVisitor";
+import RegisterVisitor from "./component/RegisterVisitor";
 
 function App() {
   return (
@@ -16,9 +18,12 @@ function App() {
         <Route path="/dashboard" element = {<Dashboard/>}/>
         <Route path="/check-visitor" element = {<CheckInVisitor/>} />
         <Route path="/check-employee" element = {<CheckInPage/>} />
-        {/* <SuccessPage/> */}
-        {/* <ErrorPage/> */}
+        <Route path="/register-employee" element = {<RegisterEmployee/>} />
+        <Route path="/register-visitor" element = {<RegisterVisitor/>} />
+
       </Routes>
+
+      
     </>
   );
 }
