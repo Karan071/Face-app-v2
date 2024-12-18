@@ -6,19 +6,20 @@ import SuccessPage from "../src/component/SuccessPage";
 import ErrorPage from "../src/component/ErrorPage";
 import CheckInPage from "./component/CheckInPage";
 import CheckInVisitor from "./component/CheckInVisitor";
+import { Routes, Route} from "react-router-dom"
 
 function App() {
   return (
-    <div>
-      <>
-        <CheckInVisitor/>
-        {/* <CheckInPage/> */}
-        {/* <SuccessPage/>*/}
-        {/*<ErrorPage/> */}
-        {/* <Dashboard/> */}
-        {/* <LandingPage /> */}
-      </>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element= {<LandingPage />}/>  
+        <Route path="/dashboard" element = {<Dashboard/>}/>
+        <Route path="/check-visitor" element = {<CheckInVisitor/>} />
+        <Route path="/check-employee" element = {<CheckInPage/>} />
+        {/* <SuccessPage/> */}
+        {/* <ErrorPage/> */}
+      </Routes>
+    </>
   );
 }
 

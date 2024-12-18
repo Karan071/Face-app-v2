@@ -15,15 +15,15 @@ const CheckInPage = () => {
 
   return (
     <div>
-      <VisionEdge />
-      {/* Header */}
       <div className="flex flex-col items-center">
-        <p className="text-gray-600 text-2xl sm:text-3xl md:text-4xl mt-6 mb-8 max-w-xl text-center font-thin">
-          Smile for the Photograph
-        </p>
+        <div className="text-center">
+          <p className="text-4xl font-semibold text-gray-700 font-poppins mt-8 bg-gradient-to-r from-indigo-600 via-blue-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+            VisionEdge <span className='font-thin text-gray-700 '>Employee Check-In System</span>
+          </p>
+        </div>
 
         {/* Webcam Section */}
-        <div className="relative w-full max-w-screen-lg flex flex-col justify-center items-center bg-white shadow-md rounded-lg p-4">
+        <div className="relative w-full max-w-screen-lg flex flex-col justify-center items-center bg-white shadow-md rounded-lg p-4 mt-4">
           <Webcam
             audio={false}
             ref={webcamRef}
