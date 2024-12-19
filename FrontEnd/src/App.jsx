@@ -18,8 +18,8 @@ function App() {
         <Route path="/" element= {<LandingPage />}/>  
         <Route path="/main-page" element = {<MainPage/>} />
         <Route path="/dashboard" element = {<Dashboard/>}/>
-        <Route path="/check-visitor" element = {<CheckInVisitor/>} />
-        <Route path="/check-employee" element = {<CheckInPage/>} />
+        {/* <Route path="/check-visitor" element = {<CheckInVisitor/>} />
+        <Route path="/check-employee" element = {<CheckInPage/>} /> */}
         <Route path="/register-employee" element = {<RegisterEmployee/>} />
         <Route path="/register-visitor" element = {<RegisterVisitor/>} />
       </Routes>     
