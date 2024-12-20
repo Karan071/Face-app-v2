@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import VisionEdge from "../utils/VisionEdge";
-import CheckInVisitor from "./CheckInVisitor";
-import CheckInPage from "./CheckInPage";
+import CheckInVisitor from "../component/CheckInVisitor";
+import CheckInPage from "../component/CheckInPage";
 
 const Dashboard = () => {
   const [isVisitor, setIsVisitor] = useState(true);

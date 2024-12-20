@@ -1,15 +1,15 @@
 import CheckIn from "./component/SuccessPage";
-import Dashboard from "./component/Dashboard";
-import LandingPage from "./component/LandingPage";
+import Dashboard from "./pages/Dashboard";
+import LandingPage from "./pages/LandingPage";
 import Navbar from "./component/Navbar";
 import SuccessPage from "../src/component/SuccessPage";
 import ErrorPage from "../src/component/ErrorPage";
 import CheckInPage from "./component/CheckInPage";
 import CheckInVisitor from "./component/CheckInVisitor";
 import { Routes, Route} from "react-router-dom"
-import RegisterEmployee from "./component/RegisterVisitor";
-import RegisterVisitor from "./component/RegisterVisitor";
-import MainPage from "./component/MainPage";
+import RegisterEmployee from "./pages/RegisterEmployee";
+import RegisterVisitor from "./pages/RegisterVisitor";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (

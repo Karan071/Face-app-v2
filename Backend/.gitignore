@@ -1,4 +1,5 @@
-__pycache
-myenv
-api.py
+__pycache__
+env
+prisma/migrations
+
 
